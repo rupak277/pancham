@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+
+   
+ 
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  import { initializeApp } from "firebase/app";
+  // https:firebase.google.com/docs/web/setup#available-libraries
+
+const firebaseConfig = {
+  apiKey: "AIzaSyClOAToQWzpUncSiuwiw4Q9cU46uOKkGts",
+  authDomain: "axew-c6245.firebaseapp.com",
+  databaseURL: "https://axew-c6245-default-rtdb.firebaseio.com",
+  projectId: "axew-c6245",
+  storageBucket: "axew-c6245.appspot.com",
+  messagingSenderId: "44628055081",
+  appId: "1:44628055081:web:cd2403ec972f7e49963838"
+};
+
+// Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
